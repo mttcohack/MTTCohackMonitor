@@ -18,6 +18,8 @@
 
 ## Description
 
+![architecture](./images/diagramoh2.jpg)
+
 ## Success Criteria
 
 ### Log Analytics Challenges
