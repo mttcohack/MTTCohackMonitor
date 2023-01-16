@@ -22,8 +22,8 @@
 
 ### Log Analytics Challenges
 
-    1. From the portal, connect Azure Storage Account Blob to your workspace.
-    2. Connect Azure hosted VM vm-xxxxx-01 to the workspace
+    1. From the portal, Configure Diagnostic settings to send Logs and Metrics from Azure Storage Account Blob to your Log Analytics workspace.
+    2. Connect Azure hosted VM vm-xxxxx-01 to the Log Analytics Workspace
     3. Show with a KQL query the heartbeat of the VM vm-xxxxx-01
     4. Get the "Security Events" from the azure vm guest os.
 
