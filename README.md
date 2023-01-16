@@ -20,3 +20,14 @@
 
 ## Success Criteria
 
+### Log Analytics Challenges
+
+    1. From the portal, connect Azure Storage Account Blob to your workspace.
+    2. Connect Azure hosted VM vm-xxxxx-01 to the workspace
+    3. Show with a KQL query the heartbeat of the VM vm-xxxxx-01
+    4. Get the "Security Events" from the azure vm guest os.
+
+### Optitional Challenges
+    1. Connect the on-premises vm to the Log Analytics Workspace with the new Azure Monitor Agent
+        Tip: Azure Arc    
+    2. Get the "Security Events" from the on-premises azure vm guest os.     
