@@ -7,8 +7,8 @@ During the mini Open Hack you will be with working Azure Monitor, Log Analytics 
 
 ## Goals
 
-    1. Build attendees technical skills on Monitoring workloads in Azure
-    2. Understand what Monitoring Tools are available in Azure and how to implement them.  
+1. Build attendees technical skills on Monitoring workloads in Azure
+2. Understand what Monitoring Tools are available in Azure and how to implement them.  
 
 ## Prerequisites
 
