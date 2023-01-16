@@ -12,6 +12,4 @@
 ## Prerequisites
 
     1. Attendees will get access to an Azure Subscription where a prebuild deployment is ready.  This includes some VM's, the Vnet, subnets, ......
-    2.Attendees should have a level 200-300 understanding of the Azure platform.  Understand concepts like PowerShell, Azure Cli, ARM, resource groups, RBAC, network, storage, compute, Scale Sets, virtual machines and security.
-
-    test
+    2. Attendees should have a level 200-300 understanding of the Azure platform.  Understand concepts like PowerShell, Azure Cli, ARM, resource groups, RBAC, network, storage, compute, Scale Sets, virtual machines and security.
