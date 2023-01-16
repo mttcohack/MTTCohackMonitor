@@ -38,12 +38,12 @@ During the mini Open Hack you will be with working Azure Monitor, Log Analytics 
 
 ### Log Analytics Challenges
 
-    1. Upload a file to blob container and create a KQL to prove the monitoring.
-    2. Show with a KQL query the heartbeat of the VM vm-xxxxx-01
-    3. show with KQL query the "Security Events" from the azure vm guest os.
-    4. Create Alert notification on security event.
+1. Upload a file to blob container and create a KQL to prove the monitoring.
+2. Show with a KQL query the heartbeat of the VM vm-xxxxx-01
+3. show with KQL query the "Security Events" from the azure vm guest os.
+4. Create Alert notification on security event.
 
 ### Optitional Challenges
-    1. Connect the on-premises vm to the Log Analytics Workspace with the new Azure Monitor Agent
+1. Connect the on-premises vm to the Log Analytics Workspace with the new Azure Monitor Agent
         Tip: Azure Arc    
-    2. Get the "Security Events" from the on-premises azure vm guest os.     
+2. Get the "Security Events" from the on-premises azure vm guest os.     
