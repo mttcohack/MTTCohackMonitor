@@ -24,14 +24,12 @@
 
 ## Description
 
-### Prebuild Resources:
     . Azure Credentials: The credentials will be handed out during the hack opening session.
     . Resource Group: a resource group has been created where you will have a contributor role assigned to you. (Please do not install new resources, only change configuration)
     . Log Analytics Workspace: This has already been pre-created to save some time. When configuring monitoring settings, it might take a few minutes before data will appear.
-    . Storage Account with Blob Container
+    . Storage Account with Blob Container: Blob container has been created. Configure Diagnostic settings to send Logs and Metrics to your Log Analytics workspace.
     . Azure virtual machine: This azure virtual machine needs to be configured so it will send monitoring data to the log analytics workspace. You can also use this machine as a jump vm to connect to the on-premises virtual machine.
     . On-Premises virtual machine: This on-premises virtual machine needs to be configured with the new Azure monitor agent so it can also send the monitoring data to the log analytics workspace. (Optional challenge)
-
 
 ![architecture](./images/diagramoh2.jpg)
 
@@ -39,10 +37,10 @@
 
 ### Log Analytics Challenges
 
-    1. From the portal, Configure Diagnostic settings to send Logs and Metrics from Azure Storage Account Blob to your Log Analytics workspace.
-    2. Connect Azure hosted VM vm-xxxxx-01 to the Log Analytics Workspace
-    3. Show with a KQL query the heartbeat of the VM vm-xxxxx-01
-    4. Get the "Security Events" from the azure vm guest os.
+    1. Upload a file to blob container and create a KQL to prove the monitoring.
+    2. Show with a KQL query the heartbeat of the VM vm-xxxxx-01
+    3. show with KQL query the "Security Events" from the azure vm guest os.
+    4. Create Alert notification on security event.
 
 ### Optitional Challenges
     1. Connect the on-premises vm to the Log Analytics Workspace with the new Azure Monitor Agent
