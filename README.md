@@ -2,7 +2,8 @@
 
 ## Overview
 
-    This challenged based Azure Monitoring Hackathon is intended to teach how to monitor Azure workloads. During the mini Open Hack you will be with working Azure Monitor, Log Analytics and Azure ARC.
+This challenged based Azure Monitoring Hackathon is intended to teach how to monitor Azure workloads.
+During the mini Open Hack you will be with working Azure Monitor, Log Analytics and Azure ARC.
 
 ## Goals
 
