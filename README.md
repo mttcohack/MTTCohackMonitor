@@ -16,7 +16,20 @@
 
 ## Learning Resources    
 
+- [Diagnostic Settings in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal)
+
+
+
 ## Description
+
+### Prebuild Resources:
+    . Azure Credentials: The credentials will be handed out during the hack opening session.
+    . Resource Group: a resource group has been created where you will have a contributor role assigned to you. (Please do not install new resources, only change configuration)
+    . Log Analytics Workspace: This has already been pre-created to save some time. When configuring monitoring settings, it might take a few minutes before data will appear.
+    . Storage Account with Blob Container
+    . Azure virtual machine: This azure virtual machine needs to be configured so it will send monitoring data to the log analytics workspace. You can also use this machine as a jump vm to connect to the on-premises virtual machine.
+    . On-Premises virtual machine: This on-premises virtual machine needs to be configured with the new Azure monitor agent so it can also send the monitoring data to the log analytics workspace. (Optional challenge)
+
 
 ![architecture](./images/diagramoh2.jpg)
 
