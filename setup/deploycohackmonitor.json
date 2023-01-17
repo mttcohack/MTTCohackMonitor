@@ -9,13 +9,13 @@
             "defaultValue": "sacohack02teamx",
             "type": "String" },
         "vmusername": {
-            "defaultValue": "sacohack02teamx",
+            "defaultValue": "",
             "type": "String" },
         "vmpassword": {
-            "defaultValue": "sacohack02teamx",
+            "defaultValue": "",
             "type": "String" },
         "teamnr": {
-            "defaultValue": "sacohack02teamx",
+            "defaultValue": "",
             "type": "String" }
 
     },
@@ -118,8 +118,8 @@
             "apiVersion": "2021-03-01",
             "location": "[resourceGroup().location]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', toLower('windowsVM1storage'))]",
-                "[resourceId('Microsoft.Network/networkInterfaces', 'windowsVM1-NetworkInterface')]"
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageaccount_name'))]",
+                "[resourceId('Microsoft.Network/networkInterfaces', variables('nicname'))]"
             ],
            "properties": {
                 "hardwareProfile": {
