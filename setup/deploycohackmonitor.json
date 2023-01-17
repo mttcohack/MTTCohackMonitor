@@ -23,7 +23,7 @@
     "variables": {
         "pubipname": "[concat(parameters('virtualMachine_name'), 'pubip')]",
         "nicname": "[concat(parameters('virtualMachine_name'), 'nic')]",
-        "loganalyticswsname": "[concat('laws_taem' , concat(parameters('teamnr')))]"
+        "loganalyticswsname": "[concat('lawsteam' , concat(parameters('teamnr')))]"
 
     },
     "resources": [
@@ -105,7 +105,7 @@
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('pubipname'))]"
                             },
                             "subnet": {
-                                "id": "/subscriptions/8507c0bb-8bed-44c5-9d91-95c96c1cd2a0/resourceGroups/RG-AVDKHD/providers/Microsoft.Network/virtualNetworks/VNET-AVDKHD-WE"
+                                "id": "/subscriptions/8507c0bb-8bed-44c5-9d91-95c96c1cd2a0/resourceGroups/RG-AVDKHD/providers/Microsoft.Network/virtualNetworks/VNET-AVDKHD-WE/subnets/default"
                             }
                         }
                     }
