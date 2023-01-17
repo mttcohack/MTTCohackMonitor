@@ -38,7 +38,7 @@ During the mini Open Hack you will be with working Azure Monitor, Log Analytics 
 
 ### Log Analytics Challenges
 
-1. Upload a file to blob container and create a KQL to prove the monitoring.
+1. Upload a file to blob container and create a KQL to show only uploads.
 2. Show with a KQL query the heartbeat of the VM vm-xxxxx-01
 3. show with KQL query the "Security Events" from the azure vm guest os.
 4. Create Alert notification on security event.
