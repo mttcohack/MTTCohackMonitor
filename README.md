@@ -2,7 +2,7 @@
 
 ## Overview
 
-This challenged based Azure Monitoring Hackathon is intended to teach how to monitor Azure workloads.
+This challenge based Azure Monitoring Hackathon is intended to teach how to monitor Azure workloads.
 During the mini Open Hack you will be working with Azure Monitor, Log Analytics and for the optional part with Azure arc.
 
 ## Goals
@@ -10,11 +10,11 @@ During the mini Open Hack you will be working with Azure Monitor, Log Analytics 
 1. Build attendees technical skills on Monitoring workloads in Azure
 2. Understand what Monitoring Tools are available in Azure and how to implement them.  
 
-## Prerequisites
+## Provided Setup
 
-Attendees will get access to an Azure Subscription where a prebuild deployment is ready.  This includes some VM's, the Vnet, subnets, ......
+Attendees will get access to an Azure Subscription where a prebuild deployment is ready.  This includes some a VM, a Storage Account, a Log Analytics Workspace and some networking resources.
 
-## Learning Resources    
+## Learning Resources
 
 - [Diagnostic Settings in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal)
 - [Collect events and performance counters](https://learn.microsoft.com/th-th/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal)
@@ -28,7 +28,7 @@ Attendees will get access to an Azure Subscription where a prebuild deployment i
 - Resource Group: a resource group has been created where you will have a contributor role assigned to you. (Please do not install new resources, only change configuration)
 - Log Analytics Workspace: This has already been pre-created to save some time. When configuring monitoring settings, it might take a few minutes before data will appear.
 - Storage Account with Blob Container: Blob container has been created. Configure Diagnostic settings to send Logs and Metrics to your Log Analytics workspace.
-- Azure virtual machine: This azure virtual machine needs to be configured so it will send monitoring data to the log analytics workspace. You can also use this machine as a jump vm to connect to the on-premises virtual machine.
+- Azure virtual machine: This azure virtual machine needs to be configured so it will send monitoring data to the log analytics workspace. In the optional part, you can also use this machine as a jump vm to connect to the on-premises virtual machine.
 - On-Premises virtual machine: This on-premises virtual machine needs to be configured with the new Azure monitor agent so it can also send the monitoring data to the log analytics workspace. (Optional challenge)
 
 ![architecture](./images/diagramoh2.jpg)
@@ -38,7 +38,7 @@ Attendees will get access to an Azure Subscription where a prebuild deployment i
 ### Log Analytics Challenges
 
 1. Upload a file to blob container and create a KQL to show only uploads.
-2. Show with a KQL query the heartbeat of the VM vm-xxxxx-01
+2. With a KQL query, get the count of the heartbeat of the VM vm-xxxxx-01 in the last 1 hour.
 3. show with KQL query the "Security Events" from the azure vm guest os.
 4. Create Alert notification on security event.
 
