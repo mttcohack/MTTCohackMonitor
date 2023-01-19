@@ -39,7 +39,7 @@ Attendees will get access to an Azure Subscription where a prebuild deployment i
 
 1. Upload a file to blob container and create a KQL to show only uploads.
 2. With a KQL query, get the count of the heartbeat of the VM vm-xxxxx-01 in the last 1 hour.
-3. show with KQL query the "Security Events" from the azure vm guest os.
+3. Show with KQL query the "Security Events" from the azure vm guest os.
 4. Create Alert notification on security event.
 
 ### Optitional Challenges
