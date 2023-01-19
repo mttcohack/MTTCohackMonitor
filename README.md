@@ -14,7 +14,7 @@ During the mini Open Hack you will be working with Azure Monitor, Log Analytics 
 
 Attendees will get access to an Azure Subscription where a prebuild deployment is ready.  This includes some a VM, a Storage Account, a Log Analytics Workspace and some networking resources.
 
-## Learning Resources
+## Useful References
 
 - [Diagnostic Settings in Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal)
 - [Collect events and performance counters](https://learn.microsoft.com/th-th/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal)
