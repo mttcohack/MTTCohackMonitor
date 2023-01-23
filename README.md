@@ -39,7 +39,7 @@ Attendees will get access to an Azure Subscription where a prebuild deployment i
 
 1. Configure diagnostic settings for BLOB in storage account.
 2. Connect Azure VM to Log Analytics workspace.
-3. Configure capture successful login/logout security events on Azure VM to Lag Analytics workspace
+3. Configure capture successful login/logout security events on Azure VM to Log Analytics workspace
 4. Show Count Heartbeats with KQL Query
 5. Show Security events with KQL Query
 
