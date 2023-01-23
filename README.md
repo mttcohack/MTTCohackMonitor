@@ -20,7 +20,7 @@ Attendees will get access to an Azure Subscription where a prebuild deployment i
 - [Collect events and performance counters](https://learn.microsoft.com/th-th/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal)
 - [Connect hybrid machines with Azure Arc-enabled servers](https://learn.microsoft.com/en-us/azure/azure-arc/servers/learn/quick-enable-hybrid-vm)
 - [Monitor a hybrid machine with VM insights](https://learn.microsoft.com/en-us/azure/azure-arc/servers/learn/tutorial-enable-vm-insights)
-
+- [Configure Windows Event collection] (https://learn.microsoft.com/en-us/defender-for-identity/configure-windows-event-collection)
 
 ## Description
 
