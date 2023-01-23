@@ -37,12 +37,15 @@ Attendees will get access to an Azure Subscription where a prebuild deployment i
 
 ### Log Analytics Challenges
 
-1. Upload a file to blob container and create a KQL to show only uploads.
-2. With a KQL query, get the count of the heartbeat of the VM vm-xxxxx-01 in the last 1 hour.
-3. Show with KQL query the "Security Events" from the azure vm guest os.
-4. Create Alert notification on security event.
+1. Configure diagnostic settings for BLOB in storage account.
+2. Connect Azure VM to Log Analytics workspace.
+3. Configure capture successful login/logout security events on Azure VM to Lag Analytics workspace
+4. Show Count Heartbeats with KQL Query
+5. Show Security events with KQL Query
 
-### Optitional Challenges
+### Optional Challenges
+
 1. Connect the on-premises vm to the Log Analytics Workspace with the new Azure Monitor Agent
-        Tip: Azure Arc    
-2. Get the "Security Events" from the on-premises azure vm guest os.     
+        Tip: Azure arc
+2. Get the "Security Events" from the on-premises azure vm guest os.
+3. Create Notification Alert on Unsuccessful login on Azure VM
