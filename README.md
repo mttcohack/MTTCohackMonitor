@@ -27,7 +27,7 @@ Attendees will get access to an Azure Subscription where a prebuild deployment i
 - Azure Credentials: The credentials will be handed out during the hack opening session.
 - Resource Group: a resource group has been created where you will have a contributor role assigned to you. (Please do not install new resources, only change configuration)
 - Log Analytics Workspace: This has already been pre-created to save some time. When configuring monitoring settings, it might take a few minutes before data will appear.
-- Storage Account with Blob Container: Blob container has been created. Configure Diagnostic settings to send Logs and Metrics to your Log Analytics workspace.
+- Storage Account with Blob Container: Blob container has been created. and a script is uploading and deleting blob in the background. Configure Diagnostic settings to send Logs and Metrics to your Log Analytics workspace.
 - Azure virtual machine: This azure virtual machine needs to be configured so it will send monitoring data to the log analytics workspace. In the optional part, you can also use this machine as a jump vm to connect to the on-premises virtual machine.
 - On-Premises virtual machine: This on-premises virtual machine needs to be configured with the new Azure monitor agent so it can also send the monitoring data to the log analytics workspace. (Optional challenge)
 
