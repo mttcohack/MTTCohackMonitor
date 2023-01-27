@@ -18,7 +18,7 @@ Attendees will get access to an Azure Subscription where a prebuild deployment i
 
 - [Diagnostic Settings in Azure Monitor](https://learn.microsoft.com/azure/azure-monitor/essentials/diagnostic-settings?tabs=portal)
 - [Collect events and performance counters](https://learn.microsoft.com/azure/azure-monitor/agents/data-collection-rule-azure-monitor-agent?tabs=portal)
-- [Audit logon events](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-logon-events)
+- [Audit logon events](https://learn.microsoft.com/windows/security/threat-protection/auditing/basic-audit-logon-events)
 - [Connect hybrid machines with Azure Arc-enabled servers](https://learn.microsoft.com/azure/azure-arc/servers/learn/quick-enable-hybrid-vm)
 - [Monitor a hybrid machine with VM insights](https://learn.microsoft.com/azure/azure-arc/servers/learn/tutorial-enable-vm-insights)
 - [Configure Windows Event collection](https://learn.microsoft.com/defender-for-identity/configure-windows-event-collection)
