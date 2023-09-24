@@ -132,7 +132,10 @@
                 },
                 "storageProfile": {
                     "imageReference": {
-                        "id": "/subscriptions/8507c0bb-8bed-44c5-9d91-95c96c1cd2a0/resourceGroups/RG-AVDKHD/providers/Microsoft.Compute/galleries/ohwin22/images/ohwindef"
+                        "publisher": "MicrosoftWindowsServer",
+                        "offer": "WindowsServer",
+                        "sku": "2022-datacenter-azure-edition",
+                        "version": "latest"
                     },
                     "osDisk": {
                         "name": "[concat(parameters('virtualMachine_name'), '_osdisk')]",
