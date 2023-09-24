@@ -45,6 +45,17 @@
             },
             "kind": "Storage"
         },
+                {
+            "name": "[concat(variables('storageaccountname'),'/default/uploads')]",
+            "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
+            "apiVersion": "2021-04-01",
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageaccountname'))]"
+            ],
+            "properties": {
+                "publicAccess": "None"
+            }
+        },
         {
             "name": "[variables('pubipname')]",
             "type": "Microsoft.Network/publicIPAddresses",
@@ -93,14 +104,14 @@
             "properties": {
                 "addressSpace": {
                     "addressPrefixes": [
-                        "10.0.0.0/16"
+                        "[concat('10.8',parameters('teamnr'),'.0.0/16')]"
                     ]
                 },
                 "subnets": [
                     {
                         "name": "[variables('vnetsubnetname')]",
                         "properties": {
-                            "addressPrefix": "10.0.0.0/24",
+                            "addressPrefix": "[concat('10.8',parameters('teamnr'),'.0.0/24')]",
                             "networkSecurityGroup": {
                                 "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('nsgname'))]"
                             }
